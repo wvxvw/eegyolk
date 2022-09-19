@@ -153,6 +153,32 @@ raw_good and raw_bad.</p>
 
 </dd></dl>
 
+<dl class="py class">
+<dt class="sig sig-object py" id="eegyolk.raw.RawDataBdf">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">eegyolk.raw.</span></span><span class="sig-name descname"><span class="pre">RawDataBdf</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">raw_data_dir</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">meta_dir</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#eegyolk.raw.RawDataBdf" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.10)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>Doc</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="eegyolk.raw.RawDataBdf.breakdown_by_age">
+<span class="sig-name descname"><span class="pre">breakdown_by_age</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">sample</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'a'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#eegyolk.raw.RawDataBdf.breakdown_by_age" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eegyolk.raw.RawDataBdf.filter_broken">
+<span class="sig-name descname"><span class="pre">filter_broken</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#eegyolk.raw.RawDataBdf.filter_broken" title="Permalink to this definition">¶</a></dt>
+<dd><p>This did not exist in the original code, but it makes it
+easier to deal with MNE file reading errors: we just try
+reading all the files once, and sort them into two groups:
+raw_good and raw_bad.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="eegyolk.raw.RawDataBdf.read_bdf">
+<span class="sig-name descname"><span class="pre">read_bdf</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fname</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">preload</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#eegyolk.raw.RawDataBdf.read_bdf" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
 </section>
 
 
